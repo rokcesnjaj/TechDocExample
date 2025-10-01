@@ -14,3 +14,11 @@ metadata:
   consumesApis:
     - car-discount-api
     - car-information-api
+spec:
+  type: service
+  lifecycle: production
+  system: car-order*system
+  owner: operational-department
+  consumesApis:
+    - car-discount-api
+    - car-information-api
