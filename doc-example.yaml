@@ -17,7 +17,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  system: car-order*system
+  system: car-order-system
   owner: operational-department
   consumesApis:
     - car-discount-api
